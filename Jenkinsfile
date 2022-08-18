@@ -10,6 +10,7 @@ pipeline {
         stage('hi') {
             steps {
                 echo 'Welcome to job1 inside stage'
+		echo 'Welcome to job1 inside the stage'
 	    }
         }
         stage('parallel stages') {
@@ -17,6 +18,7 @@ pipeline {
                 stage('parallel1') {
                     steps {
                         echo 'Welcome to parallel1'
+			echo 'Welcome to the parallel1'
                     }
                 }
                 stage('parallel2') {
