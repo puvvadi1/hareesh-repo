@@ -10,7 +10,6 @@ pipeline {
         stage('hi') {
             steps {
                 echo 'Welcome to job1'
-                echo 'Welcome to job1 new statement'
             }
         }
         stage('parallel stages') {
